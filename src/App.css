@@ -1,38 +1,178 @@
+/* App.css */
+body {
+  background-color: #1E1E1E; /* Set background color for the entire page */
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 50px;
+  width: 96%;
+  max-width: 96%;
+  padding: 20px 50px;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-item1 {
+  background-color: #E2E9EE;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 24px;
+  padding: 20px 30px; 
+}
+.grid-item2 {
+  background-color: #E2E9EE;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  height: 200px; /* default height */
+  border-radius: 24px;
+  padding: 20px 30px; 
+}
+.grid-item2 > * {
+  margin-bottom: 27px; /* Điều chỉnh giá trị này theo nhu cầu của bạn */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.grid-item5 {
+  background-color: #E2E9EE;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+  height: 200px; /* default height */
+  border-radius: 24px;
+  padding: 20px 30px; 
+}
+/* Start item 1 */
+.item1_1 {
+  background-color: #000000;
+  width: 330px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 16px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.item1_1_1 {
+  color: #ffffff;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.item1_2 {
+  background-color: #ffffff;
+  width: 330px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 16px;
+  display: flex;
+  border: 2px solid #000000;
+}
+.item1_2_1 {
+  color: #000000;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 60px;
+}
+.item2_1 {
+  background-color: #ffffff;
+  width: 330px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 16px;
+  display: flex;
+}
+.item2_1_1 {
+  color: #000000;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 17px;
+  line-height: 60px;
+}
+.item3_1 {
+  background-color: #ffffff;
+  width: 330px;
+  height: 114px;
+  border-radius: 20px;
+  margin-top: 16px;
+  display: flex;
+}
+.item3_1_1 {
+  color: #DB2D2D;
+  text-align: left;
+  margin-left: 24px;
+  font-size: 17px;
+  line-height: 60px;
+  font-weight: bold;
+}
+.forwardButton {
+  height: 16px;
+  width: 17px;
+  margin-top: 20px;
+  margin-left: 170px;
+}
+.apple {
+  height: 22px;
+  width: 20px;
+  margin-top: 16px;
+  margin-left: 30px;
+}
+.google {
+  height: 21px;
+  width: 21px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.search {
+  color: grey;
+  font-size: 14px;
+}
+.menu {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 80px;
+}
+.menu2 {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 105px;
+}
+.menu3 {
+  height: 50px;
+  width: 50px;
+  margin-top: 5px;
+  margin-left: 85px;
+}
+.menu4 {
+  height: 5px;
+  width: 20px;
+  margin-top: 25px;
+  margin-left: 250px;
+}
+.phone {
+  height: 45px;
+  width: 45px;
+  margin-top: 7px;
+  margin-left: 155px;
+  color: #778289;
+}
+.Textfield {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* End Grid1 */
+
+@media (min-width: 1024px) {
+  .grid-item1, .grid-item2, .grid-item5  {
+    height: 90vh; /* full height of the viewport */
+  }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
