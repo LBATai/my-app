@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.image{
+    display: flex;
+    border: 1px solid grey;
+}
+.main {
+    padding: 30px 40px;
+}
+.ca {
+    font-size: 30px;
+}
+.components {
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 5px 0;
+    color: grey;
+}

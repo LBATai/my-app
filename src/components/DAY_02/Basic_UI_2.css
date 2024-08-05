@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.star-rating {
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+}
+.star {
+    display: inline-block;
+    color: rgb(239, 203, 0); 
+}
+.star-outline {
+    color: #ccc;
+}
+hr {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+.ca {
+    font-size: 20px;
+}
+.components {
+    font-size: 20px;
+    padding: 5px 0;
+}
+.component1 {
+    color: #69A3E0;
+    font-size: 20px;
+}
+.rating {
+    color: #848282;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 4px;
+}

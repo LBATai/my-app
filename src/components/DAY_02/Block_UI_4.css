@@ -1,0 +1,121 @@
+body {
+  background-color: #F4F7FC;
+}
+.grid-containerUI4 {
+  color: #fff;
+  display: flex;
+  gap: 20px;
+  padding: 130px;
+}
+.grid-item1UI4 {
+  background-color: #fff;
+  padding: 20px;
+  font-size: 18px;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0px;
+  box-shadow: 1px 1px 5px grey;
+  position: relative; /* Thêm position để có thể sử dụng pseudo-element */
+}
+.imgFb {
+  margin-bottom: 100px;
+}
+.imgFb1 {
+  margin-bottom: 85px;
+}
+.text {
+  margin-top: 10px;
+  color: #5f5d5d;
+  font-size: 12px;
+  margin-left: -5px;
+  font-weight: 500;
+}
+.text1 {
+  font-size: 12px;
+  color: #717172;
+  font-weight: 600;
+}
+.text2 {
+  font-size: 40px;
+  color: #51c7d6;
+  font-weight: 350;
+}
+.box1 {
+  align-items: center;
+}
+.box2 {
+  display: flex;
+  gap: 30px;
+  margin-top: 40px;
+}
+.percent-container5 {
+  width: 15px;
+  height: 60px;
+  border: 1px solid #c3c3c3;
+  position: relative; /* Để có thể sử dụng pseudo-element */
+}
+.percent {
+  height: 100%;
+}
+.old-color1 {
+  background-color: #FCFCFC;
+  height: 60%;
+}
+.old-color2 {
+  background-color: #FCFCFC;
+  height: 70%;
+}
+.old-color3 {
+  background-color: #FCFCFC;
+  height: 30%;
+}
+.old-color4 {
+  background-color: #FCFCFC;
+  height: 20%;
+}
+.old-color5 {
+  background-color: #FCFCFC;
+  height: 30%;
+}
+.new-color1 {
+  background-color: #F75352;
+  height: 40%;
+}
+.new-color2 {
+  background-color: #4ED664;
+  height: 30%;
+}
+.new-color3 {
+  background-color: #FCD518;
+  height: 70%;
+}
+.new-color4 {
+  background-color: #31C8DD;
+  height: 80%;
+}
+.new-color5 {
+  background-color: #F78153;
+  height: 70%;
+}
+.grid-item1UI4::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background-color: rgb(231, 228, 228);
+}
+.grid-item1UI4::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f6f4f4; 
+  opacity: 0.3; /* Độ mờ của màu */
+}

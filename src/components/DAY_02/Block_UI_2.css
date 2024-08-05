@@ -1,0 +1,131 @@
+body {
+    background-color:#F4F7FC;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+.main{
+    width: 570px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+    border-radius: 5px;
+}
+.components {
+    padding: 40px 40px;
+    display: grid;
+    gap: 20px;
+}
+.component1 {
+    display: flex;
+}
+.imgHtml {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.html {
+    color: #898995;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.percent-container1 {
+    display: flex;
+    width: 370px;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 50px;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+.percent-container2 {
+    display: flex;
+    width: 370px;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 65px;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+.percent-container3 {
+    display: flex;
+    width: 370px;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 63px;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+.percent-container4 {
+    display: flex;
+    width: 370px;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 62px;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+.percent-container5 {
+    display: flex;
+    width: 370px;
+    height: 10px;
+    margin-top: 7px;
+    margin-left: 63px;
+    border-radius: 2px;
+    overflow: hidden; 
+}
+
+.percent {
+    height: 100%;
+}
+
+.old-color1 {
+    background-color: #51D567;
+    width: 60%;
+}
+.old-color2 {
+    background-color: #F55255;
+    width: 50%;
+}
+
+.old-color3 {
+    background-color: #31C8DC;
+    width: 30%;
+}
+
+.old-color4 {
+    background-color: #FCD518;
+    width: 80%;
+}
+
+.old-color5 {
+    background-color: #CC79E9;
+    width: 40%;
+}
+
+.new-color1 {
+    background-color: #F5F5F5;
+    width: 40%; 
+}
+.new-color2 {
+    background-color: #F5F5F5;
+    width: 50%; 
+}
+.new-color3 {
+    background-color: #F5F5F5;
+    width: 70%; 
+}
+.new-color4 {
+    background-color: #F5F5F5;
+    width: 20%; 
+}
+.new-color5 {
+    background-color: #F5F5F5;
+    width: 60%; 
+}
+
