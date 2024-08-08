@@ -6,7 +6,6 @@ import img3 from '../../assets/images/DAY_02/block-ui-7-images/3.jpg';
 import img4 from '../../assets/images/DAY_02/block-ui-7-images/4.jpg';
 import img5 from '../../assets/images/DAY_02/block-ui-7-images/5.jpg';
 import img6 from '../../assets/images/DAY_02/block-ui-7-images/6.jpg';
-import cart from '../../assets/icon/cart.png';
 
 function Block_UI_7() {
     return (
