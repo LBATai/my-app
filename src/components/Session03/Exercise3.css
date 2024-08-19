@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar1 {
+    width: 60%; /* Chiếm 60% của container */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar2 {
+    width: 40%; /* Chiếm 40% của container */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar h2 {
+    margin: 0 0 10px;
+}
+
+.song-list {
+    margin-top: 20px;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    width: 100%; /* Chiếm toàn bộ chiều ngang của container */
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+}
+
+.song-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.song-details h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.song-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #000000; /* Thay đổi màu chữ thành màu đen để dễ đọc hơn trên nền trắng */
+}
+
+.song-meta {
+    display: flex;
+    align-items: center;
+}
+
+.song-meta span {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.like-icon {
+    cursor: pointer;
+}
+
+.now-playing {
+    width: 100%; /* Để chiếm toàn bộ chiều rộng của sidebar2 */
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.now-playing .player-image {
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.progress-bar {
+    flex-grow: 1;
+    margin: 0 10px;
+}
+
+.number {
+    padding: 10px;
+    font-weight: bold;
+}
